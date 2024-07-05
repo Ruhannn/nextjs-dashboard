@@ -1,10 +1,10 @@
 import { Dropdown, Text } from "@nextui-org/react";
 import React, { useState } from "react";
-import { KamiIcon } from "../icons/Kami-icon";
 import { AcmeLogo } from "../icons/acmelogo";
 import { BottomIcon } from "../icons/sidebar/bottom-icon";
 import { Box } from "../styles/box";
 import { Flex } from "../styles/flex";
+import { KamiIcon } from "../icons/kami-icon";
 interface Company {
   name: string;
   location: string;
